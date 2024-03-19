@@ -9,7 +9,7 @@ let descripCod5 = 'Fiat 500X sport'
 let darBienvenida = '¡Bienvenidos a FerCars! \n\nPulse ENTER para ingresar'
 alert(darBienvenida)
 
-let seleccionProducto = parseInt(prompt('Seleccione el vehículo que desea comprar \n1-Audi A3 Sportback : 41000 USD \n2-Volkswagen sirocco GTS : 35000 USD \n3-Volkswagen golf GTI : 29000 USD \n4-Peugeot RCZ coupé : 24000 USD \n5-Fiat 500X sport : 25000 USD \n\nPulse 0 para finalizar'));
+let seleccionProducto = parseInt(prompt('Seleccione el vehículo que desea comprar \n1-Audi A3 Sportback : 41000 USD \n2-Volkswagen sirocco GTS : 35000 USD \n3-Volkswagen golf GTI : 29000 USD \n4-Peugeot RCZ coupé : 24000 USD \n5-Fiat 500X sport : 25000 USD\n\nPulse 0 para finalizar\n...Tener en cuenta que a los valores hay que agregarles IVA...'));
 let total = 0;
 const IVA = 0.21;
 const DESCUENTO_TOTAL = 0.1;
@@ -42,7 +42,7 @@ while (seleccionProducto != 0) {
             alert('Error en el codigo');
             break;
     }
-    seleccionProducto = parseInt(prompt('Seleccione el vehiculo que desea comprar \n1-Audi A3 Sportback : 41,000 USD. \n2-Volkswagen Sirocco GTS : 35,000 USD. \n3-Volkswagen Golf GTI : 29,000 USD \n4-Peugeot RCZ Coupé : 24,000 USD \n5-Fiat 500X Sport : 25,000 USD. \n\nPulse 0 para finalizar.'));
+    seleccionProducto = parseInt(prompt('Seleccione el vehículo que desea comprar \n1-Audi A3 Sportback : 41000 USD \n2-Volkswagen sirocco GTS : 35000 USD \n3-Volkswagen golf GTI : 29000 USD \n4-Peugeot RCZ coupé : 24000 USD \n5-Fiat 500X sport : 25000 USD\n\nPulse 0 para finalizar\n...Tener en cuenta que a los valores hay que agregarles IVA...'));
 
 }
 
