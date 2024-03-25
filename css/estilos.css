@@ -1,8 +1,5 @@
-/* Reset CSS */
+/*Estilos para el sitio web*/
 
-/* Box sizing border-box */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.barra-navegacion{
+    background-color: black;
 }
