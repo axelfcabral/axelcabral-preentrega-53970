@@ -1,6 +1,6 @@
 // Primera preentrega JavaScript
 
-/* let descripCod1 = 'Audi A3 Sportback'
+let descripCod1 = 'Audi A3 Sportback'
 let descripCod2 = 'Volkswagen sirocco GTS'
 let descripCod3 = 'Volkswagen golf GTI'
 let descripCod4 = 'Peugeot RCZ coupé'
@@ -73,4 +73,3 @@ function aplicarImpuestoyDescuento(impuesto, descuento) {
     }
     return totalConImpuestoyDescuento;
 }
- */
